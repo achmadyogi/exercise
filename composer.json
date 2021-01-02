@@ -1,0 +1,17 @@
+{
+    "name": "yogi/first-project",
+    "description": "This first project is aimed to learn only",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achmad Yogi Prakoso",
+            "email": "achmad.yogi.prakoso@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"yogi\\test\\": "src/"}
+    }
+}
